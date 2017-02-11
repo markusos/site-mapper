@@ -4,10 +4,16 @@ A minimal web crawler that maps out all dicoverable pages on a given site and pr
 
 ###How to use:
 
+Clone this Git repository:
+
+```
+$ git clone git@github.com:markusos/site-mapper.git
+```
+
 Install casperjs:
 
 ```
-$ brew install casperjs --devel
+$ brew install casperjs
 ```
 
 Run the scrip to crawl your website:
