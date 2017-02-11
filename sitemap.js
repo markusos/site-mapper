@@ -139,7 +139,7 @@ casper.run(function() {
     Object.keys(pages).forEach(function(key) {
         var nodeName = key.replace(/\W/g, '')
         if (nodeName) {
-            casper.echo("   " + nodeName + ' [label = "' + pages[key].title + '\\n' + pages[key].url.replace(site, '/') + '"];')
+            casper.echo("   " + nodeName + ' [label = "' + pages[key].title.replace(/"/g, '\\"') + '\\n' + pages[key].url.replace(site, '/') + '"];')
         }
     });
 
