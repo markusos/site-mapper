@@ -1,8 +1,8 @@
-#Site Mapper
+# Site Mapper
 
 A minimal web crawler that maps out all dicoverable pages on a given site and prints out dot-file format that can be used to generate a site map graph.
 
-###How to use:
+### How to use:
 
 Clone this Git repository:
 
@@ -38,7 +38,7 @@ Result:
 
 ![alt tag](https://raw.github.com/markusos/site-mapper/master/sitemap.png)
 
-###License
+### License
 
 The MIT License (MIT)
 
