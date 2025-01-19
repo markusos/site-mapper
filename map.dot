@@ -4,86 +4,70 @@ digraph sitemap {
    splines=true;
    rankdir=TB;
    node [shape=Mrecord, fontname="Arial", fontsize=18, style=filled, fillcolor=deepskyblue];
-   httpmarkusosgithubio [label = "Markus Östberg\n/"];
-   httpmarkusosgithubioabout [label = "About\n/about/"];
-   httpmarkusosgithubioprojects20150930brewonelcapitanhtml [label = "Brew after updating to El Capitan\n/projects/2015/09/30/brew-on-el-capitan.html"];
-   httpmarkusosgithubioprojects20150825howtobuildawebscraperhtml [label = "How to build a Web scraper with DOM parsing in 10 minutes\n/projects/2015/08/25/how-to-build-a-web-scraper.html"];
-   httpmarkusosgithubioprojects20150721dockerizingaphpprojecthtml [label = "Dockerizing a PHP project - A short introduction\n/projects/2015/07/21/dockerizing-a-php-project.html"];
-   httpmarkusosgithubioengage20150410automaticallysolvekukukubewithjavascripthtml [label = "Automatically solve Kuku-Kube with JavaScript\n/engage/2015/04/10/automatically-solve-kuku-kube-with-javascript.html"];
-   httpmarkusosgithubioprojects20150402continuousintegrationwithtraviscihtml [label = "Continuous integration with Travis CI\n/projects/2015/04/02/continuous-integration-with-travis-ci.html"];
-   httpmarkusosgithubioengage20150329migratingalivesitetoamazonawshtml [label = "Migrating a live site to Amazon AWS\n/engage/2015/03/29/migrating-a-live-site-to-amazon-aws.html"];
-   httpmarkusosgithubioengage20150304introducingoverviewhtml [label = "Introducing OverView for Basecamp\n/engage/2015/03/04/introducing-overview.html"];
-   httpmarkusosgithubioprojects20150222snowballstemminginphphtml [label = "Snowball stemming in PHP\n/projects/2015/02/22/snowball-stemming-in-php.html"];
-   httpmarkusosgithubioprojects20150217oauthauthenticationinphphtml [label = "OAuth authentication in PHP\n/projects/2015/02/17/oauth-authentication-in-php.html"];
-   httpmarkusosgithubioprojects20150131buildyourownsearchengine101html [label = "Build your own Search Engine 101\n/projects/2015/01/31/build-your-own-search-engine-101.html"];
-   httpmarkusosgithubiopage2 [label = "Markus Östberg\n/page/2/"];
-   httpmarkusosgithubioassetscv_markusospdf [label = "About\n/assets/cv_markusos.pdf"];
-   httpmarkusosgithubioengage201412061000tweetsperweekhtml [label = "1000 Tweets per Week\n/engage/2014/12/06/1000-tweets-per-week.html"];
-   httpmarkusosgithubioengage20141205phpworlshtml [label = "PHP[World]\n/engage/2014/12/05/phpworls.html"];
-   httpmarkusosgithubioengage20141205helloworldhtml [label = "Hello World!\n/engage/2014/12/05/hello-world.html"];
-   httpmarkusosgithubioindexhtml [label = "Markus Östberg\n/index.html"];
-   httpmarkusosgithubio -> httpmarkusosgithubio
-   httpmarkusosgithubio -> httpmarkusosgithubioabout
-   httpmarkusosgithubio -> httpmarkusosgithubioprojects20150930brewonelcapitanhtml
-   httpmarkusosgithubio -> httpmarkusosgithubioprojects20150825howtobuildawebscraperhtml
-   httpmarkusosgithubio -> httpmarkusosgithubioprojects20150721dockerizingaphpprojecthtml
-   httpmarkusosgithubio -> httpmarkusosgithubioengage20150410automaticallysolvekukukubewithjavascripthtml
-   httpmarkusosgithubio -> httpmarkusosgithubioprojects20150402continuousintegrationwithtraviscihtml
-   httpmarkusosgithubio -> httpmarkusosgithubioengage20150329migratingalivesitetoamazonawshtml
-   httpmarkusosgithubio -> httpmarkusosgithubioengage20150304introducingoverviewhtml
-   httpmarkusosgithubio -> httpmarkusosgithubioprojects20150222snowballstemminginphphtml
-   httpmarkusosgithubio -> httpmarkusosgithubioprojects20150217oauthauthenticationinphphtml
-   httpmarkusosgithubio -> httpmarkusosgithubioprojects20150131buildyourownsearchengine101html
-   httpmarkusosgithubio -> httpmarkusosgithubiopage2
-   httpmarkusosgithubioabout -> httpmarkusosgithubio
-   httpmarkusosgithubioabout -> httpmarkusosgithubioabout
-   httpmarkusosgithubioabout -> httpmarkusosgithubioassetscv_markusospdf
-   httpmarkusosgithubioprojects20150930brewonelcapitanhtml -> httpmarkusosgithubio
-   httpmarkusosgithubioprojects20150930brewonelcapitanhtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioprojects20150825howtobuildawebscraperhtml -> httpmarkusosgithubio
-   httpmarkusosgithubioprojects20150825howtobuildawebscraperhtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioprojects20150721dockerizingaphpprojecthtml -> httpmarkusosgithubio
-   httpmarkusosgithubioprojects20150721dockerizingaphpprojecthtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioengage20150410automaticallysolvekukukubewithjavascripthtml -> httpmarkusosgithubio
-   httpmarkusosgithubioengage20150410automaticallysolvekukukubewithjavascripthtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioprojects20150402continuousintegrationwithtraviscihtml -> httpmarkusosgithubio
-   httpmarkusosgithubioprojects20150402continuousintegrationwithtraviscihtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioengage20150329migratingalivesitetoamazonawshtml -> httpmarkusosgithubio
-   httpmarkusosgithubioengage20150329migratingalivesitetoamazonawshtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioengage20150304introducingoverviewhtml -> httpmarkusosgithubio
-   httpmarkusosgithubioengage20150304introducingoverviewhtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioprojects20150222snowballstemminginphphtml -> httpmarkusosgithubio
-   httpmarkusosgithubioprojects20150222snowballstemminginphphtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioprojects20150217oauthauthenticationinphphtml -> httpmarkusosgithubio
-   httpmarkusosgithubioprojects20150217oauthauthenticationinphphtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioprojects20150131buildyourownsearchengine101html -> httpmarkusosgithubio
-   httpmarkusosgithubioprojects20150131buildyourownsearchengine101html -> httpmarkusosgithubioabout
-   httpmarkusosgithubiopage2 -> httpmarkusosgithubio
-   httpmarkusosgithubiopage2 -> httpmarkusosgithubioabout
-   httpmarkusosgithubiopage2 -> httpmarkusosgithubioengage201412061000tweetsperweekhtml
-   httpmarkusosgithubiopage2 -> httpmarkusosgithubioengage20141205phpworlshtml
-   httpmarkusosgithubiopage2 -> httpmarkusosgithubioengage20141205helloworldhtml
-   httpmarkusosgithubiopage2 -> httpmarkusosgithubioindexhtml
-   httpmarkusosgithubioassetscv_markusospdf -> httpmarkusosgithubio
-   httpmarkusosgithubioassetscv_markusospdf -> httpmarkusosgithubioabout
-   httpmarkusosgithubioassetscv_markusospdf -> httpmarkusosgithubioassetscv_markusospdf
-   httpmarkusosgithubioengage201412061000tweetsperweekhtml -> httpmarkusosgithubio
-   httpmarkusosgithubioengage201412061000tweetsperweekhtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioengage20141205phpworlshtml -> httpmarkusosgithubio
-   httpmarkusosgithubioengage20141205phpworlshtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioengage20141205helloworldhtml -> httpmarkusosgithubio
-   httpmarkusosgithubioengage20141205helloworldhtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubio
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioabout
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioprojects20150930brewonelcapitanhtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioprojects20150825howtobuildawebscraperhtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioprojects20150721dockerizingaphpprojecthtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioengage20150410automaticallysolvekukukubewithjavascripthtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioprojects20150402continuousintegrationwithtraviscihtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioengage20150329migratingalivesitetoamazonawshtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioengage20150304introducingoverviewhtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioprojects20150222snowballstemminginphphtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioprojects20150217oauthauthenticationinphphtml
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubioprojects20150131buildyourownsearchengine101html
-   httpmarkusosgithubioindexhtml -> httpmarkusosgithubiopage2
+   httpsostbergdev [label = "Markus Östberg\n/"];
+   httpsostbergdevabout [label = "About\n/about/"];
+   httpsostbergdevprojects20160107createasitemapusingcasperjsandgraphvizhtml [label = "Create a site map using CasperJS and Graphviz\n/projects/2016/01/07/create-a-site-map-using-casperjs-and-graphviz.html"];
+   httpsostbergdevprojects20150930brewonelcapitanhtml [label = "Brew after updating to El Capitan\n/projects/2015/09/30/brew-on-el-capitan.html"];
+   httpsostbergdevprojects20150825howtobuildawebscraperhtml [label = "How to build a Web scraper with DOM parsing in 10 minutes\n/projects/2015/08/25/how-to-build-a-web-scraper.html"];
+   httpsostbergdevprojects20150721dockerizingaphpprojecthtml [label = "Dockerizing a PHP project - A short introduction\n/projects/2015/07/21/dockerizing-a-php-project.html"];
+   httpsostbergdevengage20150410automaticallysolvekukukubewithjavascripthtml [label = "Automatically solve Kuku-Kube with JavaScript\n/engage/2015/04/10/automatically-solve-kuku-kube-with-javascript.html"];
+   httpsostbergdevprojects20150402continuousintegrationwithtraviscihtml [label = "Continuous integration with Travis CI\n/projects/2015/04/02/continuous-integration-with-travis-ci.html"];
+   httpsostbergdevengage20150329migratingalivesitetoamazonawshtml [label = "Migrating a live site to Amazon AWS\n/engage/2015/03/29/migrating-a-live-site-to-amazon-aws.html"];
+   httpsostbergdevengage20150304introducingoverviewhtml [label = "Introducing OverView for Basecamp\n/engage/2015/03/04/introducing-overview.html"];
+   httpsostbergdevprojects20150222snowballstemminginphphtml [label = "Snowball stemming in PHP\n/projects/2015/02/22/snowball-stemming-in-php.html"];
+   httpsostbergdevprojects20150217oauthauthenticationinphphtml [label = "OAuth authentication in PHP\n/projects/2015/02/17/oauth-authentication-in-php.html"];
+   httpsostbergdevpage2 [label = "Markus Östberg\n/page/2/"];
+   httpsostbergdevprojects20150131buildyourownsearchengine101html [label = "Build your own Search Engine 101\n/projects/2015/01/31/build-your-own-search-engine-101.html"];
+   httpsostbergdevengage201412061000tweetsperweekhtml [label = "1000 Tweets per Week\n/engage/2014/12/06/1000-tweets-per-week.html"];
+   httpsostbergdevengage20141205phpworlshtml [label = "PHP[World]\n/engage/2014/12/05/phpworls.html"];
+   httpsostbergdevengage20141205helloworldhtml [label = "Hello World!\n/engage/2014/12/05/hello-world.html"];
+   httpsostbergdev -> httpsostbergdev
+   httpsostbergdev -> httpsostbergdevabout
+   httpsostbergdev -> httpsostbergdevprojects20160107createasitemapusingcasperjsandgraphvizhtml
+   httpsostbergdev -> httpsostbergdevprojects20150930brewonelcapitanhtml
+   httpsostbergdev -> httpsostbergdevprojects20150825howtobuildawebscraperhtml
+   httpsostbergdev -> httpsostbergdevprojects20150721dockerizingaphpprojecthtml
+   httpsostbergdev -> httpsostbergdevengage20150410automaticallysolvekukukubewithjavascripthtml
+   httpsostbergdev -> httpsostbergdevprojects20150402continuousintegrationwithtraviscihtml
+   httpsostbergdev -> httpsostbergdevengage20150329migratingalivesitetoamazonawshtml
+   httpsostbergdev -> httpsostbergdevengage20150304introducingoverviewhtml
+   httpsostbergdev -> httpsostbergdevprojects20150222snowballstemminginphphtml
+   httpsostbergdev -> httpsostbergdevprojects20150217oauthauthenticationinphphtml
+   httpsostbergdev -> httpsostbergdevpage2
+   httpsostbergdevabout -> httpsostbergdev
+   httpsostbergdevabout -> httpsostbergdevabout
+   httpsostbergdevprojects20160107createasitemapusingcasperjsandgraphvizhtml -> httpsostbergdev
+   httpsostbergdevprojects20160107createasitemapusingcasperjsandgraphvizhtml -> httpsostbergdevabout
+   httpsostbergdevprojects20150930brewonelcapitanhtml -> httpsostbergdev
+   httpsostbergdevprojects20150930brewonelcapitanhtml -> httpsostbergdevabout
+   httpsostbergdevprojects20150825howtobuildawebscraperhtml -> httpsostbergdev
+   httpsostbergdevprojects20150825howtobuildawebscraperhtml -> httpsostbergdevabout
+   httpsostbergdevprojects20150721dockerizingaphpprojecthtml -> httpsostbergdev
+   httpsostbergdevprojects20150721dockerizingaphpprojecthtml -> httpsostbergdevabout
+   httpsostbergdevengage20150410automaticallysolvekukukubewithjavascripthtml -> httpsostbergdev
+   httpsostbergdevengage20150410automaticallysolvekukukubewithjavascripthtml -> httpsostbergdevabout
+   httpsostbergdevprojects20150402continuousintegrationwithtraviscihtml -> httpsostbergdev
+   httpsostbergdevprojects20150402continuousintegrationwithtraviscihtml -> httpsostbergdevabout
+   httpsostbergdevengage20150329migratingalivesitetoamazonawshtml -> httpsostbergdev
+   httpsostbergdevengage20150329migratingalivesitetoamazonawshtml -> httpsostbergdevabout
+   httpsostbergdevengage20150304introducingoverviewhtml -> httpsostbergdev
+   httpsostbergdevengage20150304introducingoverviewhtml -> httpsostbergdevabout
+   httpsostbergdevprojects20150222snowballstemminginphphtml -> httpsostbergdev
+   httpsostbergdevprojects20150222snowballstemminginphphtml -> httpsostbergdevabout
+   httpsostbergdevprojects20150217oauthauthenticationinphphtml -> httpsostbergdev
+   httpsostbergdevprojects20150217oauthauthenticationinphphtml -> httpsostbergdevabout
+   httpsostbergdevpage2 -> httpsostbergdev
+   httpsostbergdevpage2 -> httpsostbergdevabout
+   httpsostbergdevpage2 -> httpsostbergdevprojects20150131buildyourownsearchengine101html
+   httpsostbergdevpage2 -> httpsostbergdevengage201412061000tweetsperweekhtml
+   httpsostbergdevpage2 -> httpsostbergdevengage20141205phpworlshtml
+   httpsostbergdevpage2 -> httpsostbergdevengage20141205helloworldhtml
+   httpsostbergdevprojects20150131buildyourownsearchengine101html -> httpsostbergdev
+   httpsostbergdevprojects20150131buildyourownsearchengine101html -> httpsostbergdevabout
+   httpsostbergdevengage201412061000tweetsperweekhtml -> httpsostbergdev
+   httpsostbergdevengage201412061000tweetsperweekhtml -> httpsostbergdevabout
+   httpsostbergdevengage20141205phpworlshtml -> httpsostbergdev
+   httpsostbergdevengage20141205phpworlshtml -> httpsostbergdevabout
+   httpsostbergdevengage20141205helloworldhtml -> httpsostbergdev
+   httpsostbergdevengage20141205helloworldhtml -> httpsostbergdevabout
 }

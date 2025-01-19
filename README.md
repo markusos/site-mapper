@@ -10,22 +10,22 @@ Clone this Git repository:
 $ git clone git@github.com:markusos/site-mapper.git
 ```
 
-Install casperjs:
+Install dependencies:
 
 ```
-$ brew install casperjs
+$ npm install
 ```
 
 Run the scrip to crawl your website:
 
 ```
-$ casperjs sitemap.js http://markusos.github.io/ > map.dot
+$ node sitemap.js https://ostberg.dev/ > map.dot
 ```
 
 If you want to generate a site map graph from the dot-file output you need to have Graphviz installed
 
 ```
-$ brew install graphviz --with-gts
+$ brew install graphviz
 ```
 
 Run Graphviz on the dot-file with:
